@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Text Tools Hub</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header -->
+
+<header>
+
+<div class="container">
+
+<div class="logo">
+<h2>Text Tools Hub</h2>
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#">Tools</a></li>
+<li><a href="#">Features</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Best Free Online Text Tools</h1>
+
+<p>
+
+Word Counter, Character Counter, Text Case Converter,
+Remove Extra Spaces, Reverse Text and much more.
+
+</p>
+
+<a href="#" class="btn">Explore Tools</a>
+
+</div>
+
+</section>
+
+<!-- Tools -->
+
+<section class="tools">
+
+<div class="container">
+
+<h2 class="section-title">
+Popular Tools
+</h2>
+
+<div class="tools-grid">
+
+<div class="tool-card">
+<h3>Word Counter</h3>
+<p>Count words instantly.</p>
+<button>Open Tool</button>
+</div>
+
+<div class="tool-card">
+<h3>Character Counter</h3>
+<p>Count characters easily.</p>
+<button>Open Tool</button>
+</div>
+
+<div class="tool-card">
+<h3>Text Case Converter</h3>
+<p>Uppercase & Lowercase.</p>
+<button>Open Tool</button>
+</div>
+
+<div class="tool-card">
+<h3>Remove Spaces</h3>
+<p>Delete extra spaces.</p>
+<button>Open Tool</button>
+</div>
+
+<div class="tool-card">
+<h3>Text Reverser</h3>
+<p>Reverse your text.</p>
+<button>Open Tool</button>
+</div>
+
+<div class="tool-card">
+<h3>Line Counter</h3>
+<p>Count total lines.</p>
+<button>Open Tool</button>
+</div>
+<!-- Blog Section -->
+
+<section class="blog">
+
+<div class="container">
+
+<h2 class="section-title">Latest Articles</h2>
+
+<div class="tools-grid">
+
+<div class="tool-card">
+<h3>How to Count Words Online</h3>
+<p>Learn the easiest way to count words using our free tool.</p>
+<a href="#" class="btn">Read More</a>
+</div>
+
+<div class="tool-card">
+<h3>Best AI Writing Tools</h3>
+<p>Discover the latest AI tools for writers and bloggers.</p>
+<a href="#" class="btn">Read More</a>
+</div>
+
+<div class="tool-card">
+<h3>SEO Tips for Beginners</h3>
+<p>Improve your website ranking with simple SEO tips.</p>
+<a href="#" class="btn">Read More</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="faq">
+
+<div class="container">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="feature-box">
+<h3>Is Text Tools Hub Free?</h3>
+<p>Yes, all tools are completely free.</p>
+</div>
+
+<div class="feature-box">
+<h3>Do I Need an Account?</h3>
+<p>No, you can use every tool without registration.</p>
+</div>
+
+<div class="feature-box">
+<h3>Is My Data Safe?</h3>
+<p>Yes. Your text stays in your browser.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<div class="container">
+
+<p>© 2026 Text Tools Hub. All Rights Reserved.</p>
+
+</div>
+
+</footer>
+</div>
+
+</div>
+<section class="word-counter">
+
+<div class="container">
+
+<h2 class="section-title">Word Counter Tool</h2>
+
+<textarea id="textInput" placeholder="Type or paste your text here..."></textarea>
+
+<div class="result-box">
+
+<p>Words: <span id="wordCount">0</span></p>
+
+<p>Characters: <span id="charCount">0</span></p>
+
+</div>
+
+<button id="clearBtn" class="btn">Clear Text</button>
+
+</div>
+
+</section>
+<section class="case-converter">
+
+<div class="container">
+
+<h2 class="section-title">Text Case Converter</h2>
+
+<textarea id="caseInput" placeholder="Enter your text here..."></textarea>
+
+<div class="case-buttons">
+
+<button id="upperBtn">UPPERCASE</button>
+
+<button id="lowerBtn">lowercase</button>
+
+<button id="titleBtn">Title Case</button>
+
+</div>
+
+</div>
+
+</section>
+<section class="space-remover">
+
+<div class="container">
+
+<h2 class="section-title">Remove Extra Spaces</h2>
+
+<textarea id="spaceInput" placeholder="Paste your text here..."></textarea>
+
+<br><br>
+
+<button id="spaceBtn" class="btn">Remove Extra Spaces</button>
+
+</div>
+
+</section>
+<section class="text-reverser">
+
+<div class="container">
+
+<h2 class="section-title">Text Reverser</h2>
+
+<textarea id="reverseInput" placeholder="Enter your text here..."></textarea>
+
+<br><br>
+
+<button id="reverseBtn" class="btn">Reverse Text</button>
+
+</div>
+
+</section>
+<section class="copy-tool">
+
+<div class="container">
+
+<h2 class="section-title">Copy Text Tool</h2>
+
+<textarea id="copyInput" placeholder="Write or paste your text here..."></textarea>
+
+<br><br>
+
+<button id="copyBtn" class="btn">Copy Text</button>
+
+<p id="copyMessage"></p>
+
+</div>
+
+</section>
+<section class="find-replace">
+
+<div class="container">
+
+<h2 class="section-title">Find & Replace</h2>
+
+<textarea id="findText" placeholder="Enter your text..."></textarea>
+
+<input type="text" id="findWord" placeholder="Find">
+
+<input type="text" id="replaceWord" placeholder="Replace With">
+
+<br><br>
+
+<button id="replaceBtn" class="btn">Replace All</button>
+
+</div>
+
+</section>
+<section class="character-counter">
+
+<div class="container">
+
+<h2 class="section-title">Character Counter Pro</h2>
+
+<textarea id="characterInput" placeholder="Type or paste your text here..."></textarea>
+
+<div class="counter-box">
+
+<p><strong>Characters:</strong> <span id="totalCharacters">0</span></p>
+
+<p><strong>Characters (No Spaces):</strong> <span id="charactersNoSpace">0</span></p>
+
+<p><strong>Words:</strong> <span id="totalWords">0</span></p>
+
+<p><strong>Lines:</strong> <span id="totalLines">0</span></p>
+
+<p><strong>Paragraphs:</strong> <span id="totalParagraphs">0</span></p>
+
+<p><strong>Reading Time:</strong> <span id="readingTime">0 min</span></p>
+
+</div>
+
+</div>
+
+</section>
+Û<section class="download-tool">
+
+<div class="container">
+
+<h2 class="section-title">Download Text</h2>
+
+<textarea id="downloadText" placeholder="Write your text here..."></textarea>
+
+<br><br>
+
+<button id="downloadBtn" class="btn">
+Download TXT
+</button>
+
+</div>
+
+</section>
+<section class="text-sorter">
+
+<div class="container">
+
+<h2 class="section-title">Text Sorter</h2>
+
+<textarea id="sortInput" placeholder="Enter one line per item..."></textarea>
+
+<br><br>
+
+<button id="sortAZ" class="btn">Sort A-Z</button>
+
+<button id="sortZA" class="btn">Sort Z-A</button>
+
+</div>
+
+</section>
+<section class="duplicate-remover">
+
+<div class="container">
+
+<h2 class="section-title">Duplicate Line Remover</h2>
+
+<textarea id="duplicateInput" placeholder="Enter one line per item..."></textarea>
+
+<br><br>
+
+<button id="duplicateBtn" class="btn">
+Remove Duplicate Lines
+</button>
+
+</div>
+
+</section>
+<section class="empty-line-remover">
+
+<div class="container">
+
+<h2 class="section-title">Remove Empty Lines</h2>
+
+<textarea id="emptyInput" placeholder="Paste your text here..."></textarea>
+
+<br><br>
+
+<button id="emptyBtn" class="btn">
+Remove Empty Lines
+</button>
+
+</div>
+
+</section>
+<section class="password-generator">
+
+<div class="container">
+
+<h2 class="section-title">Password Generator</h2>
+
+<input type="text" id="passwordOutput" placeholder="Your password..." readonly>
+
+<br><br>
+
+<button id="generatePassword" class="btn">
+Generate Password
+</button>
+
+</div>
+
+</section>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
